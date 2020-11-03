@@ -1,0 +1,133 @@
+h1{
+    margin:15px;
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+    font-size: 50px;
+}
+h2{
+    font-size: 27px;
+    text-align: center;
+    margin: 10px;
+}
+h3{
+    font-family: Bradley Hand, cursive;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+body{
+    background-image: url("river_background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+    text-shadow: 2px 2px black;
+}
+body:hover{
+    cursor: default;
+}
+#ourStory{
+    width: 90%;
+    height: 20%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    /*border: 1px solid white;*/
+}
+#ourStoryText{
+    margin: 5px;
+}
+#menu{
+    margin: 10px;
+}
+#menuTitle{
+    font-family: Bradley Hand, cursive;
+    font-size: 40px;
+    /*background-color: white;*/
+    /*color: black;*/
+    /*text-shadow: 2px 2px white;*/
+    /*opacity: 0.5;*/
+    /*color: #e69f0e;*/
+}
+th{
+    font-weight: 900;
+}
+#menuTable{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    border: 1px solid white;
+    width: 70%;
+    height: 50%;
+}
+#menuTable tr:hover{
+    background-color: #ffe7c5;
+    color: black;
+    text-shadow: 2px 2px white;
+    opacity: 0.77;
+}
+.type{
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#orderNow{
+    /*border: 1px solid white;*/
+    font-size: 20px;
+    background-color: #ffe7c5;
+    color: black;
+    text-shadow: 2px 2px white;
+    width: 90%;
+    height: 20%;
+    opacity: 0.77;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+#orderNowText{
+    margin: 0px;
+}
+.button{
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: #ffe7c5;
+    opacity: 0.77;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: 0.3s;
+    cursor: grab;
+    font-family: fantasy;
+}
+.button:hover{
+    background: none;
+    color: #ffe7c5;
+    box-shadow: 0 10px 20px 0 rgba(255, 231, 197, 0.5);
+}
+.button:active{
+    transform: translateY(4px);
+    cursor: grabbing;
+}
+h4{
+    margin:15px;
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+    font-size: 50px;
+}
+#covidText{
+    font-size: 20px;
+    background-color: black;
+    opacity: 0.5;
+    border: 1px solid white;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#contactText{
+    font-size: 20px;
+    background-color: black;
+    opacity: 0.5;
+    border: 1px solid white;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
